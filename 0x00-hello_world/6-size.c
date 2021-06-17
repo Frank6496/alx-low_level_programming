@@ -1,2 +1,2 @@
 #!/bin/bash
-sizeof *
+sizeof(char, int, float, void, double)
