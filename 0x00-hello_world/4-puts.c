@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- *Main - Entry point
+ *main - entry point
  *
  *Return: Always 0 (succes)
  */
-int main(void) /* This is the main func */
+int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle\n");
 return (0);
