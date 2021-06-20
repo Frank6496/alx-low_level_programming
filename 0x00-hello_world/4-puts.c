@@ -6,6 +6,6 @@
  */
 int main(void) /* This is the main func */
 {
-puts("\"Programming is like building a multilingual puzzle,\n");
+puts("\"Programming is like building a multilingual puzzle, 0\n");
 return (0);
 }
