@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- *This is a C programm
- *it is writing back a text
-*/
+ *Main - Entry point
+ *
+ *Return: Always 0 (succes)
+ */
 int main(void)
 {
    puts( "Programming is like building a multilingual puzzle,\n" );
