@@ -1,2 +1,12 @@
-#!/bin/bash
-sizeof(char, int, float, void, double)
+#include <stdio.h>
+
+/**
+* main - entry point
+*
+* Return: always 0 (succes)
+*/
+
+int main(void)
+{
+sizeof();
+}
