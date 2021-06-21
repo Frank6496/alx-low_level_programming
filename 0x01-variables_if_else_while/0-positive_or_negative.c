@@ -7,24 +7,23 @@
  */
 int main(void)
 {
-	int n;
+int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
 
-
-	if(n = "0") {
-	  puts("is zero\n");
-	}
-	else if (n > 0) {
-	  puts("is positive\n");
-	}
-	else if (n < 0) {
-	  puts("is negative\n");
-	}
-	else {
-	  puts("invalid\n");
-	}
+if(n == 0) {
+puts("is zero\n");
+}
+else if (n > 0) {
+puts("is positive\n");
+}
+else if (n < 0) {
+puts("is negative\n");
+}
+else {
+puts("invalid\n");
+}
 	
-	return (0);
+return (0);
 }
