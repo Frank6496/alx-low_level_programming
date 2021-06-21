@@ -14,11 +14,11 @@ char charType;
 long longType;
 long long longyType;
 
-printf("The Size of int: %zu byte(s)\n", sizeof(intType));
-printf("The size of float: %zu byte(s)\n", sizeof(floatType));
-printf("The size of char: %zu byte(s)\n:", sizeof(charType));
-printf("The size of long int: %zu byte(s)\n:", sizeof(longType));
-printf("The size of long long int: %zu byte(s)\n", sizeof(longyType));
+printf("Size of int: %zu byte(s)\n", sizeof(intType));
+printf("Size of float: %zu byte(s)\n", sizeof(floatType));
+printf("Size of char: %zu byte(s)\n:", sizeof(charType));
+printf("Size of long int: %zu byte(s)\n:", sizeof(longType));
+printf("Size of long long int: %zu byte(s)\n", sizeof(longyType));
 
 return (0);
 }
