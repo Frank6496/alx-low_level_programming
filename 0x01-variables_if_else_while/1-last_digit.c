@@ -2,12 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - entry point
+* main - print if the number is positive, zero or negative
 *
-* Description: it returns greater than 5 if the last digit is greater than 5
-* return: if its less than 5 it returns less than 5
-* return: if last digit of n < 6 && not 0 it returns less than 6 and not 0
-* return: always 0 (succes)
+* Description: using the main function
+* this program prints the out
+* Return: 0
 */
 int main(void)
 {
