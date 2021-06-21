@@ -5,8 +5,8 @@
 * main - entry point
 *
 * Description: it returns greater than 5 if the last digit is greater than 5
-* if its less than 5 it returns less than 5
-* if last digit of n < 6 && not 0 it returns less than 6 and not 0
+* return: if its less than 5 it returns less than 5
+* return: if last digit of n < 6 && not 0 it returns less than 6 and not 0
 * return: always 0 (succes)
 */
 int main(void)
