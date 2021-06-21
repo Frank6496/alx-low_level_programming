@@ -3,7 +3,6 @@
 #include <stdio.h>
 /**
 * main - print if the number is positive, zero or negative
-*
 * Description: using the main function
 * this program prints the out
 * Return: 0
@@ -11,7 +10,6 @@
 int main(void)
 {
 int n, lastdigit;
-
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 lastdigit = n % 10;
