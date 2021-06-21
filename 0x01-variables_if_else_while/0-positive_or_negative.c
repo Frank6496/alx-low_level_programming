@@ -13,7 +13,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 
-	if(n = 0) {
+	if(n = "0") {
 	  puts("is zero\n");
 	}
 	else if (n > 0) {
