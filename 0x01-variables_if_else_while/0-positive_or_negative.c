@@ -13,17 +13,18 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 
-	if(n === 0) {
-	  printf("is zero\n");
+	if(n = 0) {
+	  puts("is zero\n");
 	}
 	else if (n > 0) {
-	  printf("is positive\n");
+	  puts("is positive\n");
 	}
 	else if (n < 0) {
-	  printf("is negative\n");
+	  puts("is negative\n");
 	}
 	else {
-	  printf("invalid\n");
+	  puts("invalid\n");
 	}
+	
 	return (0);
 }
