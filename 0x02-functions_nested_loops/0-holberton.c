@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "holberton.h"
 /**
 * main - this is the entry point
 * Description: returns a string when executed
