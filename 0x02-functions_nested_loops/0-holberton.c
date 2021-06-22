@@ -7,6 +7,6 @@
 */
 int main(void) /* The main func */
 {
-printf("Holberton\n");
+_putchar("Holberton\n");
 return (0);
 }
