@@ -10,9 +10,8 @@
 */
 int _putchar(char c) /* The main func */
 {
-char c;
 char phrase[] = "Holberton";
-for (c = 0; c <= 9; c++)
+for (char c = 0; c <= 9; c++)
 {
 _putchar(phrase[c]);
  _putchar('\n');
