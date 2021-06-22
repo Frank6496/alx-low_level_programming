@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <stdio.h>
 #include "holberton.h"
 #include "_putchar.c"
 /**
@@ -7,7 +8,7 @@
 * return: always 0 (succes)
 * Return: 0
 */
-int _putYchar(char c) /* The main func */
+int _putchar(char c) /* The main func */
 {
 char c;
 char phrase[] = "Holberton";
