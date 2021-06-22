@@ -4,7 +4,7 @@
 * 
 * return: always 0 (succes)
 */
-main(void)
+int main(void)
 {
 printf("Holberton\n");
 return (0);
