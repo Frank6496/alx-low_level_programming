@@ -13,7 +13,7 @@ int _putchar(char c) /* The main func */
 char phrase[] = "Holberton";
 for (char c = 0; c <= 9; c++)
 {
-_putchar(phrase[c]);
+_putchar(phrase);
  _putchar('\n');
 }
 return (0);
