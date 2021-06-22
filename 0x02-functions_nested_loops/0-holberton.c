@@ -3,8 +3,9 @@
 * main - this is the entry point
 * Description: returns a string when executed
 * return: always 0 (succes)
+* Return: 0
 */
-int main(void)
+int main(void) /* The main func */
 {
 printf("Holberton\n");
 return (0);
