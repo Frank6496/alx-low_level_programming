@@ -5,4 +5,4 @@
  *
  * return: 0 (succes)
  */
-int _putchar(char c);
+int -putchar(char c);
