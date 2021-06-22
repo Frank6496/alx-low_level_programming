@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include "holberton.h"
+#include "_putchar.c"
 /**
 * main - this is the entry point
 * Description: returns a string when executed
