@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include "holberton.h"
 /**
 * main - this is the entry point
