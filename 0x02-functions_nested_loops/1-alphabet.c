@@ -6,7 +6,7 @@
 *
 * Return: Always 0 (Succes)
 */
-void print_alphabet(void)
+int main(void)
 {
 for (int n = 97; n <= 122; n++)
 {
