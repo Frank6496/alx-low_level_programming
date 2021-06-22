@@ -1,20 +1,24 @@
-#include <unistd.h>
-#include <stdio.h>
 #include "holberton.h"
-#include "_putchar.c"
+
 /**
-* main - this is the entry point
-* Description: returns a string when executed
-* return: always 0 (succes)
-* Return: 0
-*/
-int _putchar(char c) /* The main func */
+ * main - entry point
+ *
+ * Description: Prints Holberton with _putchar
+ *
+ * Return: always 0
+ */
+
+int main(void)
 {
-char phrase[] = "Holberton";
-for (char c = 0; c <= 9; c++)
+int i = 0;
+char c;
+char s[] = "Holberton\n";
+
+while (i <= 9)
 {
-_putchar(phrase);
- _putchar('\n');
+c = s[i];
+_putchar(c);
+i++;
 }
 return (0);
 }
