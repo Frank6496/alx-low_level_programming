@@ -7,7 +7,7 @@
 * return: always 0 (succes)
 * Return: 0
 */
-int -putchar(char c) /* The main func */
+int _putYchar(char c) /* The main func */
 {
 char c;
 char phrase[] = "Holberton";
