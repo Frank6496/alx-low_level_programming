@@ -7,14 +7,14 @@
 * return: always 0 (succes)
 * Return: 0
 */
-int main(void) /* The main func */
+int _putchar(char) /* The main func */
 {
 char c;
 char phrase[] = "Holberton";
 for (c = 0; c <= 9; c++)
 {
 _putchar(phrase[c]);
-_putchar("\n");
+ _putchar('\n');
 }
 return (0);
 }
