@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* print_alphabet - Entry Point
+* main - Entry Point
 *
 * This program prints the alphabet, in lowercase
 *
