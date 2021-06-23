@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * main - check the code for ALX School students.
+ * print_alphabet - check the code for ALX School students.
  *
  * Return: Always 0.
  */
