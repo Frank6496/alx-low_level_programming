@@ -8,10 +8,15 @@
 */
 int main(void)
 {
-for (int n = 97; n <= 122; n++)
-{
-    _putchar(n);
-}
+    char    letter;
+
+    letter = 'a';
+    while (letter <= 'z')
+    {
+        _putchar(letter);
+        letter++;
+    }
 _putchar('\n');
+return 0;
 }
 
