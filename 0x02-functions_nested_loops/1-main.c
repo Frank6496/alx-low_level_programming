@@ -2,7 +2,7 @@
 /**
  * print_alphabet - check the code for ALX School students.
  *
- * Return: print_alphabet
+ * Return: lowercase
  */
 void print_alphabet(void)
 {
