@@ -1,10 +1,12 @@
 #include "holberton.h"
+
 /**
- * print_alphabet - check the code for ALX School students.
+ * main - check the code for ALX School students.
  *
- * Return: lowercase
+ * Return: Always 0.
  */
-void print_alphabet(void)
+int main(void)
 {
     print_alphabet();
+    return (0);
 }
