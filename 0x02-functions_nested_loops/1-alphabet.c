@@ -4,7 +4,7 @@
 *
 * This program prints the alphabet, in lowercase
 *
-* Return: Always 0 (Succes)
+* Return: void
 */
 int main(void)
 {
@@ -18,4 +18,3 @@ int main(void)
     }
 return (0);
 }
-
