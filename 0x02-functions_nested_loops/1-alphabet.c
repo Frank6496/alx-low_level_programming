@@ -1,20 +1,25 @@
 #include "holberton.h"
 /**
-* main - Entry Point
-*
-* This program prints the alphabet, in lowercase
-*
-* Return: void
-*/
-int main(void)
+ * print_alphabet_x10 - print the alphabet 10 times.
+ *
+ * Return: Always 0 (Success)
+ */
+void print_alphabet_x10(void)
 {
-    char    letter;
+int alpha;
+int count;
 
-    letter = 'a';
-    while (letter <= 'z')
-    {
-        _putchar(letter);
-        letter++;
-    }
-return (0);
+count = 0;
+
+while (count <= 9)
+{
+alpha = 'a';
+while (alpha <= 'z')
+{
+_putchar(alpha);
+alpha++;
+}
+count++;
+_putchar('\n');
+}
 }
