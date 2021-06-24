@@ -1,13 +1,16 @@
 #include "holberton.h"
+
 /**
-* main - a function that tests is a no is +ve or -ve
+* main - debugging
+*
 * Return: 0
 */
+
 int main(void)
 {
 int i;
+
 i = 0;
 positive_or_negative(i);
-
 return (0);
 }
